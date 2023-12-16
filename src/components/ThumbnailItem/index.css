@@ -1,0 +1,34 @@
+.thumbnail-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.thumbnail {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+}
+
+.thumbnail-img {
+  width: 140px;
+}
+
+@media screen and (min-width: 768px) {
+  .thumbnail-img {
+    width: 60px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .thumbnail-img {
+    width: 80px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .thumbnail-img {
+    width: 100px;
+  }
+}
